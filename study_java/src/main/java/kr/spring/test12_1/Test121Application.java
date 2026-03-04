@@ -1,0 +1,13 @@
+package kr.spring.test12_1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Test121Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Test121Application.class, args);
+	}
+
+}

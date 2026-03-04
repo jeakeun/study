@@ -1,0 +1,50 @@
+# --- [Frontend: React/Node] ---
+node_modules/
+/.pnp
+.pnp.js
+/coverage
+/build
+/dist
+.DS_Store
+
+# 환경 변수 파일 (API 주소, 비공개 키 등)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- [Backend: Spring Boot / Java] ---
+# 빌드 결과물 및 임시 파일
+bin/
+build/
+out/
+.gradle/
+target/
+
+# Lombok 관련 (각자 환경에 따라 생성되는 파일 제외)
+.nb-gradle/
+
+# --- [Database & Security] ---
+# DB 접속 정보가 담긴 파일 (중요 ⭐)
+# 협업 시 각자의 ID/PW가 다를 수 있으므로 제외하는 것을 권장합니다.
+application.properties
+application.yml
+# (만약 위 파일을 올리고 싶다면, 대신 비밀번호 부분만 비운 
+# application.properties.sample 파일을 따로 만들어 공유하세요.)
+
+# --- [IDEs: IntelliJ / Eclipse / VS Code] ---
+# 개발 도구 설정 파일은 공유 시 설정 충돌의 주범입니다.
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+.vscode/
+*.sublime-project
+*.sublime-workspace
